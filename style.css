@@ -1,0 +1,163 @@
+
+div.calculatorBase{
+
+    width: 50vh;
+    height: 30.5vh;
+
+    background-color: white;
+
+    margin: 5%;
+
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2vh;
+}
+
+div.calculatorHead{
+    float: left;
+    display: flex;
+
+    width: 50vh;
+    height: 20vh;
+
+    background-color: transparent;
+}
+
+div.inputDiv{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    
+    width: 25vh;
+    height: 20vh;
+
+    background-color: transparent;
+}
+input.intFirst{
+    margin-top: 6%;
+    margin-bottom: 6%;
+
+    width: 20vh;
+    height: 5vh;
+
+    background-color: white;
+
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2vh;
+}
+input.intSecond{
+    margin-top: 6%;
+    margin-bottom: 6%;
+
+    width: 20vh;
+    height: 5vh;
+
+    background-color: white;
+
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2vh;
+}
+
+
+
+div.resultDiv{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    
+    width: 25vh;
+    height: 20vh;
+
+    background-color: transparent;
+}
+input.intResult{
+    width: 20vh;
+    height: 5vh;
+
+    background-color: white;
+
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2vh;
+}
+
+
+
+div.calculatorBody{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    
+    width: 50vh;
+    height: 10vh;
+
+    background-color: transparent;
+    
+
+}
+
+div.mathButtons{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+
+    
+    width: 50vh;
+    height: 10vh;
+
+    background-color: rgb(221, 221, 221);
+
+    border: 3px solid white;
+    border-radius: 2vh;
+}
+div.mathButtons button{
+    
+    
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+
+    width: 7vh;
+    height: 7vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+
+    background-color: white;
+
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2vh;
+}
+
+div.mathButtons button:hover{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+
+    width: 7vh;
+    height: 7vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+
+    background-color: rgb(205, 247, 255);
+
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2vh;
+
+    cursor:pointer;
+}
+
+
